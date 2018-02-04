@@ -85,7 +85,7 @@ int {};
 }
 """
 
-file_name = raw_input("Enter the EXACT path to your .cpp files bitch:")
+file_name = raw_input("Enter The SorceCodes File Directory Path:")
 
 def add_junk():
    for root, dirs, files in os.walk(file_name):
@@ -98,6 +98,6 @@ def add_junk():
                file1.write(stra)  
             print 'Adding Junk to ' + file
 
-for _ in range(1000):
+for _ in range(100):
    add_junk()
    print _
