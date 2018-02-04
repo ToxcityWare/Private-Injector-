@@ -98,6 +98,6 @@ def add_junk():
                file1.write(stra)  
             print 'Adding Junk to ' + file
 
-for _ in range(5):
+for _ in range(69):
    add_junk()
    print _
